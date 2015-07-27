@@ -26,4 +26,5 @@ cd Wallpapers
 wget https://tarteka.net/wp-content/uploads/2014/08/summer.png
 wget http://2.bp.blogspot.com/-pkqYaOqYSXc/UCPv2c1hQSI/AAAAAAAAAFk/A6P5fRk2ltA/s1600/simple_Desktop_wallpaper.Jpg
 wget http://nexus-wallpaper.com/wp-content/uploads/2013/03/space-invaders-modern-simplistic-wallpaper.jpg
-wget http://i.imgur.com/LGbSm6Q.jpg
+wget http://http://i.imgur.com/mVUQQ04.png
+yum install gnome-system-monitor
