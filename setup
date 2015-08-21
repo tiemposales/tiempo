@@ -1,8 +1,8 @@
 yum -y update
 wget http://javadl.sun.com/webapps/download/AutoDL?BundleId=68233 -O java.rpm
 rpm -Uvh java.rpm
-yum groupinstall "Xfce" "Desktop" -y
-yum install -y nano unzip xkill firefox tigervnc-server xorg-x11-server-Xorg gdm xorg-x11-fonts-* libXtst-devel-*
+yum -y groupinstall Desktop
+yum install -y nano unzip xkill firefox tigervnc-server
 vncserver && vncserver -kill :1
 sed -i 's/twm/startxfce4/g' ~/.vnc/xstartup
 vncserver
@@ -23,4 +23,4 @@ wget http://www.powerbot.org/download/
 mv index.html Powerbot.jar
 cd
 cd Pictures
-wget http://i.imgur.com/MdTl2FO.png
+wget http://i.imgur.com/CbMMkRK.png
