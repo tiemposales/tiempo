@@ -24,6 +24,7 @@ mv index.html Powerbot.jar
 cd
 cd Pictures
 wget http://i.imgur.com/58xcL8k.jpg
+yum install -y gnome-system-monitor
 service NetworkManager stop
 chkconfig NetworkManager off 
 chkconfig network on 
