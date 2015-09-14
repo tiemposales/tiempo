@@ -29,3 +29,4 @@ service NetworkManager stop
 chkconfig NetworkManager off 
 chkconfig network on 
 service network start
+sudo chkconfig vncserver on
