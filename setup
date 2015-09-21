@@ -1,5 +1,5 @@
 yum -y update
-wget http://javadl.sun.com/webapps/download/AutoDL?BundleId=68233 -O java.rpm
+wget http://mybottingvps.com/jre-8u60-linux-x64.rpm -O java.rpm
 rpm -Uvh java.rpm
 yum -y groupinstall Desktop
 yum install -y nano unzip xkill firefox tigervnc-server
