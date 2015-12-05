@@ -31,3 +31,5 @@ chkconfig NetworkManager off
 chkconfig network on 
 service network start
 chkconfig vncserver on
+cd /usr/lib64/mozilla/plugins
+ln -fs /usr/java/jre1.8.0_65/lib/amd64/libnpjp2.so
