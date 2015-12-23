@@ -1,5 +1,5 @@
 yum -y update
-wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jre-8u65-linux-x64.rpm" -O java.rpm
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jre-8u66-linux-x64.rpm" -O java.rpm
 rpm -Uvh java.rpm
 yum -y groupinstall Desktop
 yum install -y nano unzip xkill firefox tigervnc-server
@@ -8,8 +8,8 @@ sed -i 's/twm/startxfce4/g' ~/.vnc/xstartup
 vncserver
 rm -rf *.rpm
 # cd /opt/
-wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-x64.rpm"
-rpm -i jdk-8u65-linux-x64.rpm
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jdk-8u66-linux-x64.rpm"
+rpm -i jdk-8u66-linux-x64.rpm
 cd Desktop
 mkdir BottingClients
 cd BottingClients
