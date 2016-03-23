@@ -23,6 +23,7 @@ mv OSBuddy.jar?x=10 OSBuddy.jar
 wget http://www.powerbot.org/download/
 mv index.html Powerbot.jar
 yum install -y gnome-system-monitor
+yum install -y gedit
 service NetworkManager stop
 chkconfig NetworkManager off 
 chkconfig network on 
