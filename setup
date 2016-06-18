@@ -5,7 +5,7 @@ yum -y groupinstall Desktop
 yum install -y nano unzip xkill firefox tigervnc-server
 vncserver && vncserver -kill :1
 sed -i 's/twm/startxfce4/g' ~/.vnc/xstartup
-vncserver
+vncserver -geometry 1280x720
 rm -rf *.rpm
 # cd /opt/
 wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-linux-x64.rpm"
