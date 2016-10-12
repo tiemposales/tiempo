@@ -8,7 +8,7 @@ sed -i 's/twm/startxfce4/g' ~/.vnc/xstartup
 vncserver -geometry 1280x720
 rm -rf *.rpm
 # cd /opt/
-wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u92-linux-x64.rpm"
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.rpm"
 rpm -i jdk-8u101-linux-x64.rpm
 cd Desktop
 mkdir BottingClients
